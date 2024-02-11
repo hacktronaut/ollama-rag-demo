@@ -1,0 +1,78 @@
+LangChain Framework Documentation
+Introduction
+
+LangChain is a powerful framework designed for developing applications powered by language models. The framework enables the creation of context-aware applications that can connect language models to various sources of context, allowing them to reason and provide intelligent responses based on the provided information.
+Key Features
+
+    Context Awareness: LangChain applications can connect language models to diverse sources of context, such as prompt instructions, few-shot examples, and additional content to ground their responses.
+
+    Reasoning Abilities: The framework allows applications to rely on language models for reasoning, enabling them to determine how to respond based on the provided context and decide on appropriate actions.
+
+Components of LangChain
+1. LangChain Libraries
+
+LangChain Libraries are available in both Python and JavaScript. These libraries contain interfaces and integrations for various components, a basic runtime for combining these components into chains and agents, and pre-built implementations of chains and agents.
+2. LangChain Templates
+
+A collection of easily deployable reference architectures for a wide variety of tasks, specifically available in Python.
+3. LangServe
+
+LangServe is a library designed for deploying LangChain chains as a REST API, available in Python.
+4. LangSmith
+
+LangSmith serves as a developer platform facilitating the debugging, testing, evaluation, and monitoring of chains built on any Large Language Model (LLM) framework. It seamlessly integrates with LangChain.
+LangChain Diagram
+
+Application Lifecycle
+
+LangChain simplifies the entire application lifecycle:
+
+    Develop: Write applications in LangChain/LangChain.js, utilizing Templates for reference.
+
+    Productionize: Use LangSmith to inspect, test, and monitor chains for continuous improvement and confident deployment.
+
+    Deploy: Convert any chain into an API effortlessly using LangServe.
+
+LangChain Libraries
+
+The LangChain packages offer two main value propositions:
+
+    Components: Composable tools and integrations for working with language models. These components are modular and easy to use, whether you are using the rest of the LangChain framework or not.
+
+    Off-the-shelf Chains: Built-in assemblages of components for accomplishing higher-level tasks, making it easy to get started. Components provide flexibility to customize existing chains or build new ones.
+
+Getting Started
+
+Here's a quick guide to installing LangChain, setting up your environment, and starting your first LangChain application. We recommend following our Quickstart guide and reviewing our Security best practices for safe development.
+
+Note: The documentation focuses on the JS/TS LangChain library. For Python LangChain library documentation, refer to the provided link.
+LangChain Expression Language (LCEL)
+
+LCEL is a declarative way to compose chains, designed to support putting prototypes into production with no code changes. Explore the overview, standard interface, key features, and example code in the LCEL section.
+Modules
+
+LangChain provides standard, extendable interfaces and integrations for the following modules:
+
+    Model I/O: Interface with language models.
+
+    Retrieval: Interface with application-specific data.
+
+    Agents: Let models choose tools to use given high-level directives.
+
+Use Cases
+
+Explore walkthroughs and techniques for common end-to-end use cases, including Document Question Answering, RAG, Agents, and more.
+Integrations
+
+LangChain is part of a rich ecosystem of tools that integrate with the framework and build on top of it. Check out the growing list of integrations available.
+API Reference
+
+Head to the reference section for comprehensive documentation of all classes and methods in the LangChain and LangChain Experimental packages.
+Developer's Guide
+
+For guidelines on contributing and assistance with setting up your development environment, consult the Developer's Guide.
+Community
+
+Visit the Community navigator to find places to ask questions, share insights, and connect with other LangChain developers.
+
+Happy coding with LangChain!
